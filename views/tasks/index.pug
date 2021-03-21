@@ -5,4 +5,7 @@ html
     body
         ul
             each task in tasks
-                li= task.description
+                li
+                    a(class='button' href=`/tasks/${task.id}`)= task.description
+    hr
+    a(class='button' href='/') inicio
