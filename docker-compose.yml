@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  websockets:
+    container_name: node-tasks
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - '.:/app'
+    ports:
+      - '4000:4000'
+    command: node server.js
