@@ -46,6 +46,6 @@ sequelize db:seed:undo:all
 ## Demo
 
 <div align="center">
-    <img src="https://github.com/eocode/Node-Tasks-WebSockets/img/demo.png" 
+    <img src="https://github.com/eocode/Node-Tasks-WebSockets/blob/master/img/demo.png?raw=true" 
     alt="WebSockets"/>
 </div>
